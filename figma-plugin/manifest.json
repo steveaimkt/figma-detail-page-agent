@@ -1,0 +1,10 @@
+{
+  "name": "Detail Page Layout Generator",
+  "id": "1234567890123456789",
+  "api": "1.0.0",
+  "main": "code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figma"],
+  "ui": "ui.html"
+}

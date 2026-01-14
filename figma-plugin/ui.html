@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      padding: 16px;
+      background: #fff;
+      color: #333;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #1a1a2e;
+    }
+
+    .description {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    .input-group {
+      margin-bottom: 16px;
+    }
+
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    textarea {
+      width: 100%;
+      height: 350px;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-family: 'Monaco', 'Menlo', monospace;
+      font-size: 11px;
+      resize: vertical;
+      line-height: 1.4;
+    }
+
+    textarea:focus {
+      outline: none;
+      border-color: #8B7FF5;
+      box-shadow: 0 0 0 2px rgba(139, 127, 245, 0.2);
+    }
+
+    .button-group {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    button {
+      flex: 1;
+      padding: 12px 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: #8B7FF5;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #7A6FE5;
+    }
+
+    .btn-primary:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+
+    .btn-secondary {
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    .btn-secondary:hover {
+      background: #e0e0e0;
+    }
+
+    .status {
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      display: none;
+    }
+
+    .status.success {
+      display: block;
+      background: #E8F5E9;
+      color: #2E7D32;
+      border: 1px solid #A5D6A7;
+    }
+
+    .status.error {
+      display: block;
+      background: #FFEBEE;
+      color: #C62828;
+      border: 1px solid #EF9A9A;
+    }
+
+    .status.loading {
+      display: block;
+      background: #E3F2FD;
+      color: #1565C0;
+      border: 1px solid #90CAF9;
+    }
+
+    .hint {
+      font-size: 11px;
+      color: #888;
+      margin-top: 8px;
+    }
+
+    .sample-btn {
+      font-size: 11px;
+      color: #8B7FF5;
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+      padding: 0;
+      margin-top: 8px;
+    }
+
+    .sample-btn:hover {
+      color: #6B5FD5;
+    }
+  </style>
+</head>
+<body>
+  <h2>Detail Page Layout Generator</h2>
+  <p class="description">
+    AI 에이전트가 생성한 JSON 데이터를 붙여넣고 "생성" 버튼을 클릭하세요.
+    상세페이지 레이아웃이 자동으로 생성됩니다.
+  </p>
+
+  <div class="input-group">
+    <label for="jsonInput">JSON 데이터</label>
+    <textarea
+      id="jsonInput"
+      placeholder='{ "type": "CREATE_LAYOUT", "data": { "layout": { ... } } }'
+    ></textarea>
+    <button class="sample-btn" onclick="loadSample()">샘플 데이터 불러오기</button>
+  </div>
+
+  <div class="button-group">
+    <button class="btn-secondary" onclick="cancel()">취소</button>
+    <button class="btn-primary" id="createBtn" onclick="createLayout()">생성</button>
+  </div>
+
+  <div id="status" class="status"></div>
+
+  <p class="hint">
+    * output/figma-plugin-data.json 파일의 내용을 복사해서 붙여넣으세요.
+  </p>
+
+  <script>
+    const jsonInput = document.getElementById('jsonInput');
+    const createBtn = document.getElementById('createBtn');
+    const statusDiv = document.getElementById('status');
+
+    function showStatus(type, message) {
+      statusDiv.className = 'status ' + type;
+      statusDiv.textContent = message;
+    }
+
+    function createLayout() {
+      const jsonText = jsonInput.value.trim();
+
+      if (!jsonText) {
+        showStatus('error', 'JSON 데이터를 입력해주세요.');
+        return;
+      }
+
+      try {
+        const data = JSON.parse(jsonText);
+        showStatus('loading', '레이아웃 생성 중...');
+        createBtn.disabled = true;
+
+        parent.postMessage({ pluginMessage: { type: 'create-layout', data: data } }, '*');
+      } catch (e) {
+        showStatus('error', 'JSON 파싱 오류: ' + e.message);
+      }
+    }
+
+    function cancel() {
+      parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*');
+    }
+
+    function loadSample() {
+      const sample = {
+        "type": "CREATE_LAYOUT",
+        "data": {
+          "layout": {
+            "name": "Sample Detail Page",
+            "width": 860,
+            "children": [
+              {
+                "type": "SECTION",
+                "name": "01_HERO",
+                "height": 600,
+                "background": "#1A1A2E",
+                "children": [
+                  { "type": "TEXT", "name": "Headline", "content": "Sample Headline", "fontSize": 42, "fontWeight": 700, "color": "#FFFFFF" },
+                  { "type": "TEXT", "name": "Subline", "content": "This is a sample subline text", "fontSize": 20, "color": "#B8B8C8" }
+                ]
+              },
+              {
+                "type": "SECTION",
+                "name": "02_FEATURES",
+                "height": 500,
+                "background": "#F8F6F3",
+                "children": [
+                  { "type": "TEXT", "name": "Title", "content": "Features Section", "fontSize": 36, "fontWeight": 700 },
+                  { "type": "FEATURES", "items": [
+                    { "icon": "✨", "title": "Feature 1", "desc": "Description for feature 1" },
+                    { "icon": "🚀", "title": "Feature 2", "desc": "Description for feature 2" }
+                  ]}
+                ]
+              }
+            ]
+          }
+        }
+      };
+      jsonInput.value = JSON.stringify(sample, null, 2);
+    }
+
+    // 이미지 로드 함수
+    async function loadImage(url, nodeId) {
+      try {
+        const response = await fetch(url);
+        const blob = await response.blob();
+        const arrayBuffer = await blob.arrayBuffer();
+        const imageBytes = new Uint8Array(arrayBuffer);
+
+        // Figma에 이미지 데이터 전송
+        parent.postMessage({
+          pluginMessage: {
+            type: 'image-loaded',
+            nodeId: nodeId,
+            imageBytes: Array.from(imageBytes)
+          }
+        }, '*');
+      } catch (e) {
+        console.error('Image load failed:', url, e);
+      }
+    }
+
+    // Figma로부터 메시지 수신
+    window.onmessage = (event) => {
+      const msg = event.data.pluginMessage;
+      if (!msg) return;
+
+      createBtn.disabled = false;
+
+      if (msg.type === 'success') {
+        showStatus('success', msg.message);
+      } else if (msg.type === 'error') {
+        showStatus('error', msg.message);
+      } else if (msg.type === 'load-image') {
+        // 이미지 URL 로드 요청 처리
+        loadImage(msg.url, msg.nodeId);
+      }
+    };
+  </script>
+</body>
+</html>

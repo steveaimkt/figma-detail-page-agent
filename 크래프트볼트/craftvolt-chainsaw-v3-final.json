@@ -1,0 +1,583 @@
+{
+  "type": "CREATE_LAYOUT",
+  "version": "3.0",
+  "timestamp": "2026-01-13T15:00:00Z",
+  "description": "크래프트볼트 21V 체인톱 - 24섹션 구조 (6가지 기능 개별 상세 포함) - 가독성 대폭 개선 버전",
+  "data": {
+    "layout": {
+      "name": "크래프트볼트_21V_체인톱_상세페이지_v3_Final",
+      "width": 860,
+      "children": [
+        {
+          "name": "Section_01_Hook",
+          "type": "SECTION",
+          "height": 1200,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Brand", "content": "CRAFT VOLT 21V 체인톱", "fontSize": 22, "fontWeight": 500, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Main_Copy", "content": "엔진톱은 이제 창고에 넣어두세요.", "fontSize": 56, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Sub_Copy", "content": "4암페어 배터리 하나로 2시간.", "fontSize": 32, "fontWeight": 500, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Description_1", "content": "시끄러운 소음, 무거운 무게, 복잡한 유지보수.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Description_2", "content": "엔진톱의 불편함을 모두 해결한 전동 체인톱, 크래프트볼트.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 600,
+              "background": "#2A2A2A",
+              "label": "제품 메인컷 - 크래프트볼트 21V 체인톱"
+            }
+          ]
+        },
+        {
+          "name": "Section_02_WhatIsThis",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#1A1A1A",
+          "children": [
+            {"type": "TEXT", "name": "Question", "content": "\"크래프트볼트 체인톱이 뭔가요?\"", "fontSize": 32, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Answer_1", "content": "한마디로, 엔진톱을 대체하는 강력한 전동 체인톱입니다.", "fontSize": 28, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 300,
+              "background": "#2A2A2A",
+              "label": "제품 연출컷 - 체인톱 + 배터리 + 충전기 구성"
+            },
+            {"type": "TEXT", "name": "Explain_Title", "content": "이렇게 사용해요", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Explain_1", "content": "1. 4.0Ah 배터리를 본체에 장착하세요 (딸깍 소리가 날 때까지)", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Explain_2", "content": "2. 안전 스위치를 누른 상태에서 트리거를 당기세요", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Explain_3", "content": "3. 나무에 체인 바를 대고 부드럽게 밀어넣으세요", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Summary", "content": "배터리 장착 → 버튼 누름 → 절단 완료! 3초 만에 시작!", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_03_BrandName",
+          "type": "SECTION",
+          "height": 800,
+          "background": "#FF6B00",
+          "children": [
+            {"type": "TEXT", "name": "Question", "content": "\"CRAFT VOLT\"가 무슨 뜻인가요?", "fontSize": 28, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Meaning_1", "content": "CRAFT = 장인 정신", "fontSize": 26, "fontWeight": 500, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Meaning_2", "content": "VOLT = 강력한 전력", "fontSize": 26, "fontWeight": 500, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Translation", "content": "= \"장인이 만든 강력한 전동 공구\"", "fontSize": 32, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Desc", "content": "전동 공구의 새로운 기준을 제시합니다.", "fontSize": 22, "fontWeight": 400, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Slogan", "content": "최고의 성능, 합리적인 가격.", "fontSize": 28, "fontWeight": 600, "color": "#111111", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_04_SetContents",
+          "type": "SECTION",
+          "height": 1300,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "세트 구성품", "fontSize": 48, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Sub_Copy", "content": "크래프트볼트 21V 체인톱 풀세트", "fontSize": 26, "fontWeight": 500, "color": "#FF6B00", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "세트 구성품 전체 이미지"
+            },
+            {"type": "TEXT", "name": "Item1_Title", "content": "① 21V 20cm 체인톱 본체", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item1_Desc1", "content": "- 브러시리스 모터로 강력하고 조용한 절단", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item1_Desc2", "content": "- 20cm 가이드 바 / 최대 30cm 절단 가능", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item1_Desc3", "content": "- 1.7kg 초경량 핸디형 설계", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item2_Title", "content": "② 4.0Ah 대용량 배터리", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item2_Desc1", "content": "- 고출력 리튬이온 셀 사용", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item2_Desc2", "content": "- 한 번 충전으로 최대 2시간 작업", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item2_Desc3", "content": "- 국내 최초 배터리 수리 서비스 지원", "fontSize": 22, "fontWeight": 400, "color": "#FFD700", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item3_Title", "content": "③ 급속 충전기 + 체인 오일", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item3_Desc1", "content": "- 빠른 충전으로 작업 대기 시간 최소화", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Item3_Desc2", "content": "- 체인 윤활유 포함으로 바로 사용 가능", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"}
+          ]
+        },
+        {
+          "name": "Section_05_WhyCore",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#1A1A1A",
+          "children": [
+            {"type": "TEXT", "name": "Question", "content": "\"왜 배터리가 그렇게 중요한가요?\"", "fontSize": 32, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Answer", "content": "전기톱의 핵심은 배터리입니다!", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 300,
+              "background": "#2A2A2A",
+              "label": "배터리 용량별 작업 시간 비교 인포그래픽"
+            },
+            {"type": "TEXT", "name": "Compare_Title", "content": "배터리 지속 시간 비교", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare_1_Title", "content": "일반 브랜드 2.0Ah 배터리", "fontSize": 24, "fontWeight": 500, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare_1_Value", "content": "→ 약 45분 작업 가능", "fontSize": 22, "fontWeight": 400, "color": "#666666", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare_2_Title", "content": "크래프트볼트 4.0Ah 배터리", "fontSize": 24, "fontWeight": 500, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare_2_Value", "content": "→ 약 120분 작업 가능 (2배 이상!)", "fontSize": 22, "fontWeight": 600, "color": "#FFD700", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Conclusion", "content": "같은 용량이라고 다 같은 성능이 아닙니다.\n고출력 셀을 사용한 크래프트볼트 배터리는\n마지막까지 일정한 파워를 유지합니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760}
+          ]
+        },
+        {
+          "name": "Section_06_PainPoint",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#111111",
+          "children": [
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "엔진톱 사용 중 지친 모습 / 소음으로 귀 막는 상황"
+            },
+            {"type": "TEXT", "name": "Main_Copy", "content": "\"엔진톱, 정말 불편하지 않으셨나요?\"", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Desc", "content": "혹시 이런 경험 있으신가요?", "fontSize": 26, "fontWeight": 500, "color": "#888888", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Check_1", "content": "✓ 시동 거는 것부터 힘들고, 시끄러운 소음에 귀가 아프다", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Check_2", "content": "✓ 무거워서 30분만 작업해도 팔이 후들후들 떨린다", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Check_3", "content": "✓ 연료 섞고, 오일 넣고, 청소하고... 관리가 너무 번거롭다", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Check_4", "content": "✓ 전동 체인톱은 배터리가 금방 닳아서 일이 안 끝난다", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Solution", "content": "크래프트볼트가 이 모든 문제를 해결했습니다.", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_07_Solution",
+          "type": "SECTION",
+          "height": 1000,
+          "background": "#FF6B00",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "엔진톱의 단점은 빼고, 장점만 담았습니다", "fontSize": 40, "fontWeight": 700, "color": "#111111", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "편안하게 나무 자르는 모습 / 웃으면서 작업하는 장면"
+            },
+            {"type": "TEXT", "name": "Point1_Title", "content": "버튼 하나로 즉시 시작", "fontSize": 26, "fontWeight": 600, "color": "#111111", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Point1_Desc", "content": "→ 시동 걸 필요 없이 트리거만 당기면 바로 작동합니다", "fontSize": 22, "fontWeight": 400, "color": "#333333", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Point2_Title", "content": "1.7kg 초경량으로 피로감 ZERO", "fontSize": 26, "fontWeight": 600, "color": "#111111", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Point2_Desc", "content": "→ 엔진톱의 1/3 무게! 장시간 작업해도 팔이 안 아파요", "fontSize": 22, "fontWeight": 400, "color": "#333333", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Point3_Title", "content": "이웃 눈치 NO! 조용한 작업", "fontSize": 26, "fontWeight": 600, "color": "#111111", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Point3_Desc", "content": "→ 엔진톱 대비 30dB 이상 낮은 저소음 설계", "fontSize": 22, "fontWeight": 400, "color": "#333333", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Result", "content": "강력한 절단력은 그대로, 불편함만 없앴습니다.", "fontSize": 24, "fontWeight": 600, "color": "#111111", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_08_FeaturesOverview",
+          "type": "SECTION",
+          "height": 1300,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "6가지 핵심 기능", "fontSize": 48, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Sub_Copy", "content": "프로가 선택한 이유가 있습니다", "fontSize": 26, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "6가지 기능 개요 인포그래픽"
+            },
+            {"type": "TEXT", "name": "Feature1_Num", "content": "01", "fontSize": 22, "fontWeight": 600, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature1_Title", "content": "브러시리스 모터", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature2_Num", "content": "02", "fontSize": 22, "fontWeight": 600, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature2_Title", "content": "최대 30cm 절단", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature3_Num", "content": "03", "fontSize": 22, "fontWeight": 600, "color": "#FFD700", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature3_Title", "content": "4.0Ah 대용량 배터리", "fontSize": 26, "fontWeight": 600, "color": "#FFD700", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature4_Num", "content": "04", "fontSize": 22, "fontWeight": 600, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature4_Title", "content": "무공구 체인 장력 조절", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature5_Num", "content": "05", "fontSize": 22, "fontWeight": 600, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature5_Title", "content": "오일 자동 분사", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature6_Num", "content": "06", "fontSize": 22, "fontWeight": 600, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Feature6_Title", "content": "1.7kg 초경량 핸디형", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"}
+          ]
+        },
+        {
+          "name": "Section_09_Feature1_Detail",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#1A1A1A",
+          "children": [
+            {"type": "TEXT", "name": "Feature_Num", "content": "01", "fontSize": 72, "fontWeight": 700, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Question", "content": "Q. 왜 브러시리스 모터인가요?", "fontSize": 32, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Answer", "content": "A. 기존 모터 대비 2배 긴 수명과\n30% 더 강력한 힘을 제공합니다", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "브러시리스 모터 구조 다이어그램 / 일반 모터 비교"
+            },
+            {"type": "TEXT", "name": "Benefit_Title", "content": "브러시리스 모터의 혜택", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_1", "content": "✓ 마찰 부품 제거로 고장 걱정 없는 내구성", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_2", "content": "✓ 30% 향상된 에너지 효율로 배터리 오래 사용", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_3", "content": "✓ 소음과 진동 최소화로 쾌적한 작업 환경", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec_Highlight", "content": "수명: 일반 모터 500시간 → 브러시리스 1,000시간 이상", "fontSize": 24, "fontWeight": 600, "color": "#FFD700", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_10_Feature2_Detail",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Feature_Num", "content": "02", "fontSize": 72, "fontWeight": 700, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Question", "content": "Q. 20cm 바로 30cm 나무를 어떻게 자르나요?", "fontSize": 32, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Answer", "content": "A. 양쪽에서 한 번씩 절단하면\n직경 30cm 원목도 깔끔하게!", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "30cm 원목 절단 시연 장면 / 양면 절단 방법 인포그래픽"
+            },
+            {"type": "TEXT", "name": "Benefit_Title", "content": "최대 30cm 절단의 혜택", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_1", "content": "✓ 웬만한 과수원 가지치기, 장작 준비 한 번에 해결", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_2", "content": "✓ 휴대성 좋은 20cm 바로 효율적인 작업 가능", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_3", "content": "✓ 가정용으로 충분한 절단력, 더 큰 건 전문가 장비!", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec_Highlight", "content": "가이드 바: 20cm | 최대 절단: 30cm | 체인 속도: 5m/s", "fontSize": 24, "fontWeight": 600, "color": "#FFD700", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_11_Feature3_Detail",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#1A1A1A",
+          "children": [
+            {"type": "TEXT", "name": "Feature_Num", "content": "03", "fontSize": 72, "fontWeight": 700, "color": "#FFD700", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Question", "content": "Q. 배터리가 왜 4.0Ah나 필요한가요?", "fontSize": 32, "fontWeight": 600, "color": "#FFD700", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Answer", "content": "A. 한 번 충전으로 2시간!\n배터리 걱정 없이 작업에 집중하세요", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "4.0Ah 배터리 클로즈업 / 작업 시간 비교 인포그래픽"
+            },
+            {"type": "TEXT", "name": "Benefit_Title", "content": "4.0Ah 대용량 배터리의 혜택", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_1", "content": "✓ 일반 2.0Ah 대비 2배 이상 긴 작업 시간", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_2", "content": "✓ 고출력 셀로 끝까지 일정한 파워 유지", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_3", "content": "✓ 국내 최초 배터리 수리 서비스로 장기적 비용 절감", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec_Highlight", "content": "용량: 4.0Ah | 작업시간: 120분 | 충전시간: 60분", "fontSize": 24, "fontWeight": 600, "color": "#FFD700", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_12_Feature4_Detail",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Feature_Num", "content": "04", "fontSize": 72, "fontWeight": 700, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Question", "content": "Q. 체인 장력 조절이 왜 중요한가요?", "fontSize": 32, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Answer", "content": "A. 다이얼 한 번 돌리면 끝!\n공구 없이 최적의 장력을 유지하세요", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "무공구 체인 장력 조절 다이얼 사용 장면"
+            },
+            {"type": "TEXT", "name": "Benefit_Title", "content": "무공구 체인 장력 조절의 혜택", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_1", "content": "✓ 별도 공구 없이 손쉽게 장력 조절", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_2", "content": "✓ 작업 중간에도 빠르게 체인 상태 최적화", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_3", "content": "✓ 적절한 장력으로 체인 수명 연장, 안전 사고 예방", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec_Highlight", "content": "조절 방식: 측면 다이얼 | 조절 범위: ±5mm | 소요 시간: 5초", "fontSize": 24, "fontWeight": 600, "color": "#FFD700", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_13_Feature5_Detail",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#1A1A1A",
+          "children": [
+            {"type": "TEXT", "name": "Feature_Num", "content": "05", "fontSize": 72, "fontWeight": 700, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Question", "content": "Q. 오일 자동 분사가 왜 편한가요?", "fontSize": 32, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Answer", "content": "A. 트리거만 당기면 알아서 윤활!\n체인 수명은 길게, 절단면은 깨끗하게", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "오일 자동 분사 시스템 작동 원리 / 오일 탱크 위치"
+            },
+            {"type": "TEXT", "name": "Benefit_Title", "content": "오일 자동 분사의 혜택", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_1", "content": "✓ 작업 중 수동으로 오일 칠 필요 없음", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_2", "content": "✓ 체인과 바의 마모 최소화로 소모품 비용 절감", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_3", "content": "✓ 과열 방지로 안전하고 효율적인 절단", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec_Highlight", "content": "오일 탱크: 50ml | 자동 분사 | 잔량 확인창 포함", "fontSize": 24, "fontWeight": 600, "color": "#FFD700", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_14_Feature6_Detail",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Feature_Num", "content": "06", "fontSize": 72, "fontWeight": 700, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Question", "content": "Q. 1.7kg이 왜 중요한가요?", "fontSize": 32, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Answer", "content": "A. 엔진톱의 1/3 무게!\n여성, 고령자도 장시간 편안하게 사용", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "한 손으로 들고 있는 모습 / 무게 비교 인포그래픽"
+            },
+            {"type": "TEXT", "name": "Benefit_Title", "content": "1.7kg 초경량의 혜택", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_1", "content": "✓ 장시간 작업해도 팔이 안 아픈 피로감 ZERO", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_2", "content": "✓ 좁은 공간, 높은 곳에서도 자유로운 작업", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Benefit_3", "content": "✓ 여성분들도 쉽게 다룰 수 있는 핸디형 설계", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec_Highlight", "content": "무게: 1.7kg (배터리 포함) | 엔진톱 평균: 4~6kg", "fontSize": 24, "fontWeight": 600, "color": "#FFD700", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_15_Tips",
+          "type": "SECTION",
+          "height": 1000,
+          "background": "#1A1A1A",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "더 잘 사용하기 위한 꿀팁!", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Tip1_Title", "content": "TIP 1. 작업 전 체인 장력을 확인하세요", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Tip1_Desc", "content": "체인이 너무 헐거우면 이탈 위험,\n너무 팽팽하면 마모가 빨라요.\n손으로 당겼을 때 3mm 정도 들리면 적당합니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Tip2_Title", "content": "TIP 2. 오일 탱크를 항상 채워두세요", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Tip2_Desc", "content": "오일이 없으면 체인과 바가 과열되어 수명이 줄어듭니다.\n사용 전 오일 잔량을 꼭 확인하세요.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Tip3_Title", "content": "TIP 3. 여분 배터리로 끊김 없이!", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Tip3_Desc", "content": "큰 작업을 하실 때는 여분 배터리 준비를 추천드려요.\n하나 충전하면서 하나 사용하면 쉬는 시간 ZERO!", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Tip4_Title", "content": "TIP 4. 보관 시 배터리는 분리하세요", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Tip4_Desc", "content": "장기 보관 시 배터리를 분리하고\n서늘한 곳에 보관하면 배터리 수명이 오래갑니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760}
+          ]
+        },
+        {
+          "name": "Section_16_Differentiator",
+          "type": "SECTION",
+          "height": 1100,
+          "background": "#FFD700",
+          "children": [
+            {"type": "TEXT", "name": "Badge", "content": "국내 최초", "fontSize": 22, "fontWeight": 700, "color": "#111111", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Main_Copy", "content": "배터리 수리 서비스", "fontSize": 48, "fontWeight": 700, "color": "#111111", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Sub_Copy", "content": "배터리 수명이 다해도, 교체가 아닌 수리로!", "fontSize": 26, "fontWeight": 500, "color": "#333333", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 300,
+              "background": "#2A2A2A",
+              "label": "배터리 교체 vs 수리 비용 비교 인포그래픽"
+            },
+            {"type": "TEXT", "name": "Problem_Title", "content": "일반 배터리의 문제", "fontSize": 26, "fontWeight": 600, "color": "#111111", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Problem_Desc", "content": "2~3년 사용 후 배터리 수명이 다하면\n전체를 새로 구매해야 합니다.\n가격이 만만치 않죠.", "fontSize": 22, "fontWeight": 400, "color": "#333333", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Solution_Title", "content": "크래프트볼트의 해결책", "fontSize": 26, "fontWeight": 600, "color": "#111111", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Solution_Desc1", "content": "내부 셀만 교체하는 수리 서비스로\n50% 이상 비용 절감!", "fontSize": 22, "fontWeight": 400, "color": "#333333", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Solution_Desc2", "content": "환경도 지키고 지갑도 지키는\n지속 가능한 선택입니다.", "fontSize": 22, "fontWeight": 400, "color": "#333333", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Result", "content": "크래프트볼트는 오래 쓸수록 경제적입니다!", "fontSize": 24, "fontWeight": 600, "color": "#111111", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_17_Comparison",
+          "type": "SECTION",
+          "height": 1300,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "엔진톱 vs 크래프트볼트 비교", "fontSize": 40, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Sub_Copy", "content": "한눈에 보는 차이점", "fontSize": 26, "fontWeight": 500, "color": "#888888", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 400,
+              "background": "#2A2A2A",
+              "label": "엔진톱 vs 크래프트볼트 비교 테이블"
+            },
+            {"type": "TEXT", "name": "Compare1_Label", "content": "소음", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare1_Competitor", "content": "엔진톱: 90~100dB (귀마개 필수)", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare1_Ours", "content": "크래프트볼트: 60~70dB (일상 대화 수준)", "fontSize": 22, "fontWeight": 500, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare2_Label", "content": "무게", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare2_Competitor", "content": "엔진톱: 4~6kg (장시간 작업 피로)", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare2_Ours", "content": "크래프트볼트: 1.7kg (1/3 수준)", "fontSize": 22, "fontWeight": 500, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare3_Label", "content": "시동", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare3_Competitor", "content": "엔진톱: 리코일 시동 (힘들고 번거로움)", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare3_Ours", "content": "크래프트볼트: 버튼 하나로 즉시", "fontSize": 22, "fontWeight": 500, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare4_Label", "content": "유지보수", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare4_Competitor", "content": "엔진톱: 혼합유, 점화플러그, 필터 교체...", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Compare4_Ours", "content": "크래프트볼트: 오일만 보충하면 끝", "fontSize": 22, "fontWeight": 500, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Conclusion", "content": "가정용, 과수원, 캠핑 용도라면 크래프트볼트로 충분합니다!", "fontSize": 24, "fontWeight": 600, "color": "#FFD700", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_18_Safety",
+          "type": "SECTION",
+          "height": 1500,
+          "background": "#1A1A1A",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "안전하게 설계했습니다", "fontSize": 40, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 300,
+              "background": "#2A2A2A",
+              "label": "안전 스위치, 체인 브레이크, 핸드가드 디테일 컷"
+            },
+            {"type": "TEXT", "name": "Point1_Title", "content": "① 이중 안전 스위치", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Point1_Desc", "content": "안전 버튼을 누른 상태에서만 트리거 작동\n오작동 위험을 원천 차단합니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Point2_Title", "content": "② 자동 체인 브레이크", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Point2_Desc", "content": "킥백 발생 시 체인이 자동으로 정지됩니다.\n초보자도 안심하고 사용하세요.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Point3_Title", "content": "③ 넓은 핸드가드", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Point3_Desc", "content": "튀는 나무 조각으로부터 손을 보호합니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Point4_Title", "content": "④ 과부하 보호 시스템", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Point4_Desc", "content": "무리한 작업 시 자동으로 전원이 차단되어\n모터를 보호합니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Point5_Title", "content": "⑤ 스마트 BMS (배터리 관리 시스템)", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Point5_Desc", "content": "과충전, 과방전, 과열을 방지하는\n3중 안전 보호 시스템", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Point6_Title", "content": "⑥ 인체공학적 그립", "fontSize": 24, "fontWeight": 600, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Point6_Desc", "content": "미끄럼 방지 고무 그립으로\n젖은 손으로도 안전하게 작업할 수 있습니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760}
+          ]
+        },
+        {
+          "name": "Section_19_Target",
+          "type": "SECTION",
+          "height": 1000,
+          "background": "#FF6B00",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "이런 분들께 추천드려요", "fontSize": 40, "fontWeight": 700, "color": "#111111", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 300,
+              "background": "#2A2A2A",
+              "label": "과수원 / 전원주택 / 캠핑장 사용 모습"
+            },
+            {"type": "TEXT", "name": "Target_1", "content": "✓ 과수원에서 가지치기 작업이 많은 분", "fontSize": 24, "fontWeight": 500, "color": "#111111", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Target_2", "content": "✓ 전원주택에서 정원 관리와 장작 준비가 필요한 분", "fontSize": 24, "fontWeight": 500, "color": "#111111", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Target_3", "content": "✓ 캠핑장에서 장작을 손질하고 싶은 분", "fontSize": 24, "fontWeight": 500, "color": "#111111", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Target_4", "content": "✓ 엔진톱이 너무 무겁고 시끄러워서 불편한 분", "fontSize": 24, "fontWeight": 500, "color": "#111111", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Target_5", "content": "✓ 전동 체인톱의 짧은 배터리가 불만인 분", "fontSize": 24, "fontWeight": 500, "color": "#111111", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Target_6", "content": "✓ 장기적으로 경제적인 제품을 찾는 분", "fontSize": 24, "fontWeight": 500, "color": "#111111", "textAlign": "CENTER", "width": 760}
+          ]
+        },
+        {
+          "name": "Section_20_Reviews",
+          "type": "SECTION",
+          "height": 1400,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "실제 사용자 후기", "fontSize": 40, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Sub_Copy", "content": "이미 많은 분들이 만족하고 계십니다", "fontSize": 24, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Review1_Type", "content": "50대 과수원 운영자 A님", "fontSize": 22, "fontWeight": 500, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Review1_Title", "content": "\"4A 배터리 하나로 쉬엄쉬엄 두 시간 사용했습니다\"", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Review1_Content", "content": "과수원에서 가지치기 작업하는데\n중간에 충전할 필요 없이 하루 작업을 끝낼 수 있어서 너무 좋네요.\n엔진톱은 이제 창고에 넣어뒀어요.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Review2_Type", "content": "40대 전원주택 거주자 B님", "fontSize": 22, "fontWeight": 500, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Review2_Title", "content": "\"크래프트볼트 배터리는 다르네요. 확실히 더 오래 갑니다\"", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Review2_Content", "content": "전에 쓰던 제품은 30분만 쓰면 힘이 딸려서 충전해야 했는데,\n이건 정말 오래가요.\n배터리 수리 서비스가 있다는 게 마음에 듭니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Review3_Type", "content": "60대 주말농장 C님", "fontSize": 22, "fontWeight": 500, "color": "#FF6B00", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Review3_Title", "content": "\"배터리가 오래가니 엔진톱은 아예 손이 안 가네요\"", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Review3_Content", "content": "무엇보다 조용해서 좋아요.\n시끄러운 소음 때문에 이웃에게 눈치 보던 게 이제는 없습니다.\n가볍고 관리도 편해서 와이프도 잘 사용하고 있어요.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Stats", "content": "만족도 4.8/5.0 | 재구매 의사 96% | 추천 의사 98%", "fontSize": 20, "fontWeight": 400, "color": "#666666", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_21_ProductSpec",
+          "type": "SECTION",
+          "height": 1200,
+          "background": "#1A1A1A",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "제품 상세 스펙", "fontSize": 40, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 350,
+              "background": "#2A2A2A",
+              "label": "제품 치수 및 구성품 이미지"
+            },
+            {"type": "TEXT", "name": "Category1_Title", "content": "[체인톱 본체]", "fontSize": 26, "fontWeight": 600, "color": "#FF6B00", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec1", "content": "제품명: CRAFT VOLT 21V 20cm 체인톱", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec2", "content": "전압: 21V (MAX)", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec3", "content": "가이드 바 길이: 20cm", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec4", "content": "최대 절단 직경: 30cm", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec5", "content": "무게: 1.7kg (배터리 포함)", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Spec6", "content": "모터: 브러시리스 모터", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Category2_Title", "content": "[배터리]", "fontSize": 26, "fontWeight": 600, "color": "#FFD700", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Battery1", "content": "용량: 4.0Ah", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Battery2", "content": "타입: Li-ion (리튬이온)", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Battery3", "content": "작업 시간: 최대 120분 (연속)", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Battery4", "content": "특이사항: 국내 최초 배터리 수리 서비스 지원", "fontSize": 22, "fontWeight": 400, "color": "#FFD700", "textAlign": "LEFT"},
+            {"type": "TEXT", "name": "Common", "content": "제조국: 대한민국 | A/S: 1년 무상 (배터리/모터 6개월)", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "LEFT"}
+          ]
+        },
+        {
+          "name": "Section_22_FAQ",
+          "type": "SECTION",
+          "height": 1800,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "자주 묻는 질문", "fontSize": 40, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Q1", "content": "Q. 처음 사용하는 초보자도 괜찮을까요?", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "A1", "content": "A. 네! 이중 안전 스위치와 자동 체인 브레이크가 있어서\n초보자도 안전하게 사용할 수 있습니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Q2", "content": "Q. 배터리 하나로 정말 2시간 작업이 가능한가요?", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "A2", "content": "A. 네! 연속 절단 기준 약 120분 사용 가능합니다.\n일반적인 가지치기나 장작 작업이라면 하루 종일도 가능해요.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Q3", "content": "Q. 체인은 일반 체인톱과 호환되나요?", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "A3", "content": "A. 20cm(8인치) 규격의 범용 체인과 호환됩니다.\n소모품 구하기 쉬워요.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Q4", "content": "Q. 오일은 어떤 걸 사용해야 하나요?", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "A4", "content": "A. 시중에 판매하는 체인톱 전용 오일\n(바 앤 체인 오일)을 사용하시면 됩니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Q5", "content": "Q. 배터리 수리 서비스는 어떻게 이용하나요?", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "A5", "content": "A. 고객센터로 연락 주시면 배터리를 보내주시고,\n내부 셀 교체 후 돌려드립니다.\n새 배터리 대비 50% 이상 저렴해요.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Q6", "content": "Q. A/S는 어떻게 받나요?", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "A6", "content": "A. 1년 무상 A/S (배터리/모터는 6개월)\n전화 또는 이메일로 접수하시면 신속하게 처리해드립니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Q7", "content": "Q. 비 오는 날에도 사용할 수 있나요?", "fontSize": 24, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "A7", "content": "A. 생활방수 수준이라 가벼운 빗물은 괜찮지만,\n폭우 시에는 사용을 권장하지 않습니다.", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER", "width": 760}
+          ]
+        },
+        {
+          "name": "Section_23_Warranty",
+          "type": "SECTION",
+          "height": 1000,
+          "background": "#FF6B00",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "1년 무상 보증", "fontSize": 48, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Sub_Copy", "content": "품질에 대한 자신감입니다", "fontSize": 26, "fontWeight": 400, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Warranty1_Title", "content": "✓ 1년 무상 A/S", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Warranty1_Desc", "content": "정상 사용 중 하자 발생 시\n무상으로 수리 또는 교환해 드립니다.", "fontSize": 22, "fontWeight": 400, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Warranty2_Title", "content": "✓ 배터리/모터 6개월 무상", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Warranty2_Desc", "content": "소모성 부품인 배터리와 모터도\n6개월간 무상 A/S를 제공합니다.", "fontSize": 22, "fontWeight": 400, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Warranty3_Title", "content": "✓ 국내 최초 배터리 수리 서비스", "fontSize": 26, "fontWeight": 600, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Warranty3_Desc", "content": "무상 기간 후에도 배터리 수리 서비스로\n저렴하게 유지보수 가능합니다.", "fontSize": 22, "fontWeight": 400, "color": "#FFFFFF", "textAlign": "CENTER", "width": 760},
+            {"type": "TEXT", "name": "Contact", "content": "고객센터: 070-XXXX-XXXX | 이메일: support@craftvolt.co.kr", "fontSize": 22, "fontWeight": 400, "color": "#FFFFFF", "textAlign": "CENTER"}
+          ]
+        },
+        {
+          "name": "Section_24_CTA",
+          "type": "SECTION",
+          "height": 900,
+          "background": "#111111",
+          "children": [
+            {"type": "TEXT", "name": "Main_Copy", "content": "지금 바로 시작하세요", "fontSize": 56, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Sub_Copy", "content": "엔진톱은 이제 창고에 넣어두세요.", "fontSize": 32, "fontWeight": 500, "color": "#FF6B00", "textAlign": "CENTER"},
+            {
+              "type": "IMAGE_AREA",
+              "name": "IMAGE_AREA",
+              "width": 760,
+              "height": 280,
+              "background": "#2A2A2A",
+              "label": "체인톱 풀세트 감성 이미지"
+            },
+            {"type": "TEXT", "name": "Price_Info", "content": "크래프트볼트 21V 체인톱 풀세트", "fontSize": 26, "fontWeight": 500, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Price_Value", "content": "합리적인 가격", "fontSize": 36, "fontWeight": 700, "color": "#FFFFFF", "textAlign": "CENTER"},
+            {"type": "TEXT", "name": "Trust", "content": "무료배송 | 1년 A/S | 국내 최초 배터리 수리", "fontSize": 22, "fontWeight": 400, "color": "#888888", "textAlign": "CENTER"},
+            {"type": "BUTTON", "text": "지금 구매하기", "background": "#FF6B00", "color": "#FFFFFF", "width": 320, "height": 70, "fontSize": 28, "fontWeight": 700}
+          ]
+        }
+      ]
+    }
+  }
+}
