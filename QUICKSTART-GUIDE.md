@@ -35,7 +35,7 @@ GitHub에서 다운로드 → Antigravity에서 Claude Code 실행 → Figma 작
 
 ### 2.1 Antigravity 설치
 
-1. https://antigravity.so/ 접속
+1. https://antigravity.google/ 접속
 2. **Download** 버튼 클릭
 3. 설치 후 실행
 

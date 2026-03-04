@@ -9,7 +9,7 @@ AI 기반 상세페이지 자동 제작 시스템입니다.
 
 | 프로그램 | 다운로드 |
 |---------|----------|
-| **Antigravity** | https://antigravity.so/ |
+| **Antigravity** | https://antigravity.google/ |
 | **Figma Desktop** | https://www.figma.com/downloads/ |
 
 > Antigravity에는 Claude Code가 기본 내장되어 있습니다.
